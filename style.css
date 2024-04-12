@@ -1,0 +1,88 @@
+h1{
+  text-align: center;
+  
+}
+
+body{
+  background: #534145;
+}
+
+.imgStyle{
+  height: 500px;
+  width: 500px;
+}
+
+h4{
+  text-align: center;
+}
+
+
+
+.btnStyle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px #000;
+  
+}
+
+.btnChild{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  }
+
+  button{
+    background-color:#534145;
+    border: 0.1px solid black;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 3px 3px 4px #000;
+    cursor: pointer;
+          transition: 0.15s;     
+ 
+  }
+
+  .btnPos{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+   
+    
+
+    .btn2:active{
+      margin-top: 3px;
+      margin-left: 3px;
+       box-shadow: none;
+    }
+
+
+
+  .btn1:active{
+    margin-top: 3px;
+   margin-left: 3px;
+    box-shadow: none;
+  }
+
+  button:hover{
+    background-color: #897176 ;
+  }
+
+  span{
+    border-bottom: 1px solid black;
+    
+  }
+
+

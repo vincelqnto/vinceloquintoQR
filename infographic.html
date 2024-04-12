@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY INFOGRAPHIC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+body{
+  min-width: 100vh;
+  min-height: auto;
+}
+
+@media only screen and (max-width: 600px){
+
+  .imgPos{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+
+body{
+  background: #534145;
+}
+.imgStyle{
+  height: 500px;
+  width: 400px;
+}
+
+.imgPos{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+
+button{
+  height:30px;
+  width:50px;
+  background-color: #534145;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px black;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #897176;
+}
+button:active{
+  top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+
+#iconStyle{
+  position: relative;
+  top: 2px;
+}
+
+
+  </style>
+
+</head>
+<body>
+ <button type="button" onclick="location.href='index.html'"> <i class="fa-solid fa-circle-left" id="iconStyle" ></i></button>
+
+  <div class="imgPos">
+<img src="myth.png" class="imgStyle">
+</div>
+</body>
+</html>
